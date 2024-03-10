@@ -1,0 +1,40 @@
+.header {
+  border: black;
+  height: 50px;
+  border-bottom: thick double black;
+  padding-bottom: 1px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  border: ;
+}
+.flex-item {
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  border: solid black 2px;
+  height: 100px;
+  margin: 40px 0px 40px 0px;
+}
+.blog-title {
+  color: black;
+  font-weight: bolder;
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+.footer {
+  border-top: thick double black;
+}
+.footer-item {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border: black 15px;
+  margin-top: 20px;
+  font-weight: bolder;
+}
