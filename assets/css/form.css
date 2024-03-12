@@ -1,10 +1,14 @@
 .input-form {
-  background-color: #f9f9f9;
-  padding: 20px;
-  margin: 20px;
+    padding: 20px;
+  margin-top: 50px;
+  margin-right: 50px;
   border-radius: 5px;
-  width: 50%;
+  width: 40%;
   float: right;
+  border-left: 5px double black; /* Adjust the thickness and color of the line as needed */
+  height: 70vh; /* Set the height of the line to cover the entire viewport height */
+  /* position: fixed; */
+  left: 50%;
 }
 .logo {
   color: #dfdddd;
@@ -12,13 +16,22 @@
   height: 300px;
   background: linear-gradient(rgb(250, 250, 35), rgb(201, 132, 4));
   border-radius: 50%;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 30px;
+  margin-top: 90px;
+  margin-left: 75px;
+  float: left;
 }
+
 .input-fields {
   margin-bottom: 10px;
+}
+h3 {
+    display: flex;
+    justify-content: center;
 }
 
 label {
@@ -41,8 +54,26 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+ 
 }
 
+.mode-button {
+    display: flex;
+    justify-content: end;
+}
+
+.submit-button {
+    background-color: #0f1011;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 25px;
+    width: 95%;
+   
+  }
 button:hover {
   background-color: #0056b3;
 }
