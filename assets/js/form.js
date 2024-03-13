@@ -27,4 +27,17 @@ submit.addEventListener("click", function (event) {
 });
 //USER INTERACTIONS
 
+const modeButton = document.querySelector(".modeBtn");
+const body = document.body;
+
+modeButton.addEventListener("click", function () {
+  if (body.classList.contains("dark-mode")) {
+    body.classList.remove("dark-mode");
+    modeButton.textContent = "☀️"; // Change button text for light mode
+  } else {
+    body.classList.add("dark-mode");
+    modeButton.textContent = "🌙"; // Change button text for dark mode
+  }
+});
+
 //INITIALATION
